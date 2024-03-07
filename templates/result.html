@@ -1,0 +1,33 @@
+<!-- Store this code in 'login.html' file inside the 'templates' folder -->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Login </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+/*body {*/
+/*  background-image: url('/static/background.jpg');*/
+/*  background-repeat: no-repeat;*/
+/*  background-attachment: fixed;*/
+/*  background-size: cover;*/
+/*}*/
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row d-flex justify-content-end">
+        <div class="col-12">
+            <div class="row d-flex justify-content-end">
+                <br>
+                <div><img src="{{ url_for('video_feed_for_output') }}" width="110%" height="90%"></div>
+                <br>
+                <br><br>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
