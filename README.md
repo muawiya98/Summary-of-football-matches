@@ -1,1 +1,2 @@
 # Summary-of-football-matches
+This AI system automatically summarizes football match videos using advanced algorithms and natural language processing. Users input a full match and select preferences (e.g., goals, missed opportunities, fouls, cards). The system analyzes match audio to predict key events and generates a customized summary video. Techniques include NLP, data collection and preparation (videos, audio), audio preprocessing, feature extraction, and speech-to-text.
